@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="{{ url_for('static', filename='Images/logo.jpg') }}" type="image/x-icon">
+    <title>Pathfinder</title>
+    <script src="https://kit.fontawesome.com/418aae1497.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{url_for('static',filename='CSS/main.css')}}">
+
+</head>
+<body>
+    
+    <div class="container">
+        <nav>
+          <a class="name" href="">Pathfinder</a>
+          <ul id="sidemenu">
+            <li><a href="{{url_for('welcome')}}">Home</a></li>
+            <li><a href="{{url_for('welcome')}}">Contact</a></li>  
+          </ul>
+        </nav>
+        
+        <div class="text ">
+          <h1>Let us know about you better</h1>
+          <img id="interview" src="{{url_for('static',filename='Images/backpic.jpg')}}" alt="">
+        </div>
+        <div class="dash fade-in">
+          <div id="mywork">
+             <h1 class="subtit">Wanna know about your campus placement trends?</h1>
+             <div class="work-list">
+                <div class="work">
+                   <img src="{{url_for('static',filename='Images/download.jpeg')}}" alt="">
+                    <div class="layer">
+                     <h3>G Pulla Reddy Engineering College</h3>
+                      <p>Kurnool | AP</p>
+                       <a href="{{url_for('college')}}"><i
+                                   class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                     </div>
+                 </div> 
+              </div>
+           </div>
+         </div>
+        </div>
+
+  <div class="container">
+    <div class="box fade-in">
+      <div class="heading">
+        <h1>Say Goodbye to uncertainty by providing your details</h1>
+         </div>
+         <form action="/input"  method="POST" >
+         <div class="user-details">
+          <div class="input-box">
+            <label class="details" for="dropdown1">School Board</label>
+            <select id="dropdown1" name="drop">
+              <option value=1>State</option>
+              <option value=0>Others</otion>
+            </select>
+          </div>
+         <br>
+          <div class="input-box">
+              <label class="details" for="gender">Gender</label>
+              <select id="gender" name="gender">
+                <option value=1>Male</option>
+                <option value=0>Female</option>
+              </select>
+          </div>
+         
+
+         <br>         
+
+          <div class="input-box">
+            <label class="details" for="schoolPercentage">School Percentage :</label>
+            <input type="number" id="schoolPercentage" name="schoolPercentage" min="0" max="100" step="0.01">
+            </div>
+
+         <br>
+          <div class="input-box">
+            <label class="details" for="dropdown2">Branch :</label>
+            <select id="dropdown2" name="Dbranch">
+            <option value=0>Computer Science and Engineering</option>
+            <option value=1>Electronics and Communication Engineering</option>
+            <option value=2>Mechanical Engineering</option>
+            </select>
+            </div>
+
+         <br>
+
+         
+
+         <div class="input-box">
+          <label class="details" for="dropdown4">Intermediate Board :</label>
+          <select id="dropdown4" name="Iboard">
+          <option value=1>State</option>
+          <option value=0>Others</option>
+          </select>
+          </div>
+
+         <br>
+
+        
+          <div class="input-box">
+            <label class="details" for="CGPA">CGPA (in %):</label>
+            <input type="number" id="CGPA" name="Cgpa" min="0" max="100" >
+            </div>
+         <br>
+
+         
+         <div class="input-box">
+          <label class="details" for="dropdown5">Intermediate Group :</label>
+          <select id="dropdown5" name="Interg">
+          <option value=1>MPC</option>
+          <option value=0>Diploma</option>
+          </select>
+          </div>
+
+         <br>
+
+         <div class="input-box ">
+          <label class="details" for="dropdown3">Skills :</label>
+          <select id="dropdown3" name="skills">
+          <option value=0>DataScience</option>
+          <option value=1>Data Structures and Algorithms</option>
+          </select>
+          </div>
+
+         <br>
+
+            <div class="input-box">
+            <label class="details" for="intermediatePercentage">Intermediate Percentage :</label>
+            <input type="number" id="intermediatePercentage" name="Iper" min="0" max="100" >
+            </div>
+
+         <br> 
+         <div class="input-box">
+          <label class="details" for="Ist">Internships</label>
+          <select id="Ist" name="Ist">
+            <option value=1>Yes</option>
+            <option value=0>No</option>
+          </select>
+      </div>
+         <br>
+         </div>
+         <div class="button">
+           <input type="submit" value="Submit">
+         </div> 
+         <div class="modal" id="custom-alert">
+          <div class="modal-content">
+            <p>Please enter valid details.</p>
+          </div>
+          <div class="modal-footer">
+            <button class="modal-close waves-effect waves-light btn">OK</button>
+          </div>
+        </div>            
+       </form>
+    </div>
+   </div>
+   <div id="footer">
+    <h2 class="footer-text">Built By Unity <span id="footer-heart">❤️</span><br><span id="rights">All Rights Reserved &TRADE; 2023</span></h2>
+  </div>
+  <script src="{{url_for('static',filename='Javas/input.js')}}"></script>
+</body>

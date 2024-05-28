@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/418aae1497.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{url_for('static',filename='CSS/yes.css')}}">
+    
+    <link rel="icon" href="{{ url_for('static', filename='Images/logo.jpg') }}" type="image/x-icon">
+    <title>Pathfinder</title>
+</head>
+<body>
+        <div id="confetti-container"></div>
+
+    <div id="home">
+        <div class="container">
+          <nav>
+            <a class="name" href="">Pathfinder</a>
+            <ul id="sidemenu">
+              <li><a href="{{url_for('welcome')}}">Home</a></li>
+              <li><a href="{{url_for('welcome')}}">Contact</a></li>  
+             </ul>
+          </nav>
+          
+          <div class="text">
+            <div>
+              <h3>Congratulations!<span class="auto-type"></span></h3>
+            </div>
+            <p class="brief" align="justify">
+                You have good potential to be get placed.
+            </p>
+          </div>
+
+          <div class="salary">
+            <div>
+                <h2>Predicted Salary |</h2>
+            </div>
+            <div class="salary-value">
+                <h3 id="salary-counter">{{data+0.5}}</h3>
+            </div>
+        </div>     
+        
+
+        <div class="jobs">
+          <h1>Start your career here
+            <span>
+              <i class="fa-solid fa-arrow-down" style="color: #467bc2;"></i>
+            </span>
+
+          </h1>
+        </div>
+
+        <div id="about">
+            <div class="row">
+              <div class="aboutmain">
+                <div class="tab-titles">
+                  <p class="tab-links " id="skills" onclick="opentab('Jobs')">Jobs</p>
+                  <p class="tab-links" onclick="opentab('Internships')">Internships</p>
+                </div>
+                <div class="tab-contents" id="Jobs">
+                  <ul>
+                    <li>
+                      <a href="">Salesforce</a>
+                    </li>
+                    <li>
+                      <a href="">IBM</a>
+                    </li>
+                    <li>
+                      <a href="">American Express</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="Internships">
+                  <ul>
+                    <li><a href="">Cisco</a></li>
+                    <li><a href="">Wallmart</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>         
+        </div>
+      </div>
+        
+
+    </div>    
+    
+    <script src="{{url_for('static',filename='Javas/yes.js')}}"></script>
+          
+</body>
+</html>

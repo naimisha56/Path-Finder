@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='CSS/trendstyle.css')}}" />
+    <link rel="icon" href="{{ url_for('static', filename='Images/logo.jpg') }}" type="image/x-icon">
+    <title>Pathfinder</title>
+</head
+>
+<body>
+    <div class="container">
+        <nav>
+          <a class="name" href="">Pathfinder</a>
+          <ul id="sidemenu">
+            <li><a href="{{url_for('welcome')}}">Home</a></li>
+            <li><a href="{{url_for('welcome')}}">Contact</a></li>    
+          </ul>
+        </nav>
+     <div class="Conu">
+      <iframe src="https://us3.ca.analytics.ibm.com/bi/?perspective=dashboard&amp;pathRef=.my_folders%2FEce%2Bdashboard&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=view&amp;mode=dashboard&amp;subView=model0000018a18c62b5e_00000000" width="1200" height="700" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+        <div class = "content-container">
+          <a href="{{url_for('college')}}">
+          <button class="btn btn1">CSE</button>
+          </a>
+          <br><br>
+          <a href="{{url_for('cse')}}">
+          <button class="btn btn2">CSE</button>
+          </a>
+          <br><br>
+          <a href="{{url_for('me')}}">
+          <button class="btn btn3">ME</button>
+          </a>
+          <br><br>
+          <a href="{{url_for('main')}}">
+          <button class="btn btn4">Predict Yours</button>
+          </a>
+    
+          <div class="text">
+              <h3>
+                  Select your Branch
+              </h3>
+          </div>
+        </div>
+     </div>
+
+        
+  </div>
+  <div id="footer">
+    <h2 class="footer-text">Built By Unity <span id="footer-heart">❤️</span><br><span id="rights">All Rights Reserved &TRADE; 2023</span></h2>
+  </div>
+  <script src="script_input.js"></script>
+
+    
+</body>
+</html>
+      

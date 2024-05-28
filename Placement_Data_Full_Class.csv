@@ -1,0 +1,216 @@
+sl_no,gender,ssc(percentage),ssc(State or Others),Inter(percentage),Inter_board,Inter_Group,Branch,Internships,CGPA,skill,status,Company,salary
+1,M,67,Others,91,Others,MPC,CSE,No,55,DS,Placed,CTS,4
+2,M,79.33,State,78.33,Others,MPC,CSE,Yes,86.5,DSA,Placed,Accenture,3
+3,M,65,State,68,State,Diploma,ECE,No,75,DSA,Placed,TCS,5
+4,M,56,State,52,State,MPC,CSE,No,66,DS,Not Placed,CTS,0
+5,M,85.8,State,73.6,State,MPC,ECE,No,96.8,DSA,Placed,Wipro (Turbo),6
+6,M,55,Others,49.8,Others,MPC,CSE,Yes,55,DSA,Not Placed,Accenture,0
+7,F,46,Others,49.2,Others,MPC,ECE,No,74.28,DSA,Not Placed,Wipro,0
+8,M,82,State,64,State,MPC,CSE,Yes,67,DSA,Placed,Accenture,6
+9,M,73,State,79,State,MPC,ECE,No,91.34,DSA,Placed,Wipro,5
+10,M,58,State,70,State,MPC,ECE,No,54,DSA,Not Placed,Square Yards,0
+11,M,58,State,61,State,MPC,ECE,Yes,62,DS,Placed,Infosys,6
+12,M,69.6,State,68.4,State,MPC,ECE,Yes,60,DSA,Placed,Wipro,5
+13,F,47,State,55,Others,MPC,ECE,No,62,DS,Not Placed,Infosys,0
+14,F,77,State,87,State,MPC,ECE,No,68,DSA,Placed,CTS,3
+15,M,62,State,47,State,MPC,ECE,No,76,DS,Not Placed,Infosys,0
+16,F,65,State,75,State,MPC,ECE,Yes,72,DSA,Placed,Accenture,3
+17,M,63,State,66.2,State,MPC,ECE,Yes,60,DSA,Placed,Accenture (AASE),7
+18,F,55,State,67,State,MPC,ECE,No,60,DSA,Not Placed,CTS,0
+19,F,63,State,66,State,MPC,ECE,No,68,DS,Not Placed,Accenture,0
+20,M,60,Others,67,Others,Diploma,ECE,Yes,50.48,DSA,Placed,Wipro,3
+21,M,62,Others,65,Others,MPC,ECE,No,50,DS,Placed,Capgemini,4
+22,F,79,Others,76,Others,MPC,ECE,No,95,DSA,Placed,Wipro,4
+23,F,69.8,Others,60.8,Others,MPC,CSE,No,55.53,DS,Placed,CTS,8
+24,F,77.4,Others,60,Others,MPC,CSE,Yes,92,DSA,Placed,Accenture,7
+25,M,76.5,Others,97.7,Others,MPC,CSE,No,97.4,DSA,Placed,CTS,8
+26,F,52.58,Others,54.6,State,MPC,ECE,Yes,76,DSA,Not Placed,CTS,0
+27,M,71,Others,79,Others,MPC,ECE,Yes,94,DSA,Placed,CTS,3
+28,M,63,Others,67,Others,MPC,ECE,No,68,DS,Placed,Wipro,4
+29,M,76.76,Others,76.5,Others,MPC,ECE,Yes,73.35,DSA,Placed,CADSYS,5
+30,M,62,State,67,State,MPC,ECE,No,77,DSA,Not Placed,CTS,0
+31,F,64,State,73.5,State,MPC,ECE,No,52,DS,Placed,CTS,5
+32,F,67,State,53,State,MPC,CSE,No,64,DS,Not Placed,TESTYANTRA,0
+33,F,61,State,81,State,MPC,ECE,No,50.89,DS,Placed,CADSYS,4
+34,F,87,Others,65,Others,MPC,ECE,Yes,88,DSA,Placed,Capgemini,6
+35,M,62,Others,51,Others,MPC,Others,No,68.44,DS,Not Placed,Wipro,0
+36,F,69,State,78,State,MPC,ECE,No,71,DS,Placed,EPAM,7
+37,M,51,State,44,State,MPC,ECE,No,64,DSA,Not Placed,Modak Analytics,0
+38,F,79,State,76,State,MPC,CSE,No,58,DS,Placed,Accenture,4
+39,F,73,Others,58,Others,MPC,ECE,No,53.7,DS,Placed,CSG,3
+40,M,81,Others,68,Others,MPC,CSE,No,93,DSA,Placed,Enlighten Opex,5
+41,F,78,State,77,Others,MPC,ECE,No,60,DSA,Placed,Accenture (AASE),3
+42,F,74,Others,63.16,Others,MPC,ECE,Yes,65,DS,Not Placed,Accenture (AASE),0
+43,M,49,Others,39,State,MPC,Others,No,63,DSA,Not Placed,Accenture (AASE),0
+44,M,87,Others,87,Others,MPC,ECE,No,95,DS,Placed,CTS,7
+45,F,77,Others,73,Others,MPC,ECE,Yes,89,DSA,Placed,CTS,3
+46,F,76,State,64,State,MPC,CSE,No,58,DS,Not Placed,Accenture (AASE),0
+47,F,70.89,Others,71.98,Others,MPC,ECE,No,68,DS,Not Placed,IHS Markit,0
+48,M,63,State,60,State,MPC,ECE,Yes,78,DSA,Placed,CTS,3
+49,M,63,Others,62,Others,MPC,ECE,No,64,DSA,Placed,Accenture (AASE),5
+50,F,50,Others,37,Others,Diploma,Others,No,65,DS,Not Placed,Wipro,0
+51,F,75.2,State,73.2,State,MPC,ECE,No,65,DS,Placed,ValueLabs,3
+52,M,54.4,State,61.12,State,MPC,ECE,No,67,DS,Not Placed,Accenture (AASE),0
+53,F,40.89,Others,45.83,Others,MPC,ECE,No,71.2,DS,Not Placed,CTS,0
+54,M,80,Others,70,Others,MPC,CSE,No,87,DS,Placed,CSG,6
+55,F,74,State,60,Others,MPC,ECE,No,78,DS,Placed,Accenture,3
+56,M,60.4,State,66.6,Others,MPC,ECE,No,71,DS,Placed,Wipro (Turbo),3
+57,M,63,Others,71.4,Others,MPC,ECE,No,68,DSA,Placed,Wipro (Turbo),3
+58,M,68,State,76,State,MPC,ECE,No,80,DSA,Placed,LTTS,8
+59,M,74,State,62,Others,MPC,ECE,No,74,DSA,Placed,CSG,3
+60,M,52.6,State,65.58,Others,MPC,CSE,No,57.6,DSA,Placed,CTS,4
+61,M,74,State,70,State,MPC,ECE,Yes,60,DSA,Placed,Wipro (Turbo),6
+62,M,84.2,State,73.4,State,MPC,ECE,No,61.6,DSA,Placed,CTS,7
+63,F,86.5,Others,64.2,Others,MPC,CSE,No,59,DSA,Placed,Robert Bosch,3
+64,M,61,Others,70,Others,MPC,ECE,No,68.5,DS,Not Placed,IBM,0
+65,M,80,Others,73,Others,MPC,ECE,No,61,DSA,Placed,Xoriant's,3
+66,M,54,Others,47,Others,MPC,ECE,No,89.69,DS,Not Placed,Capgemini,0
+67,M,83,Others,74,Others,MPC,ECE,No,68.92,DS,Placed,TCS (Digital),4
+68,M,80.92,Others,78.5,Others,MPC,ECE,No,68.71,DSA,Placed,Hexaware,4
+69,F,69.7,State,47,State,MPC,CSE,No,79,DS,Not Placed,Tech Mahindra,0
+70,M,73,State,73,State,MPC,CSE,Yes,70,DSA,Placed,CTS (GenC Elevate),4
+71,M,82,Others,61,Others,MPC,CSE,No,89,DSA,Placed,CTS,8
+72,M,75,Others,70.29,Others,MPC,ECE,No,95,DSA,Placed,ValueLabs,3
+73,M,84.86,Others,67,Others,MPC,ECE,No,95.5,DSA,Placed,Prodapt Solutions,3
+74,M,64.6,State,83.83,Others,MPC,ECE,No,86,DSA,Placed,ValueLabs(SDET),3
+75,M,56.6,State,64.8,State,MPC,ECE,No,84.27,DSA,Placed,IHS Markit,4
+76,F,59,State,62,Others,MPC,ECE,No,74,DS,Not Placed,CTS,0
+77,F,66.5,Others,70.4,State,Diploma,ECE,No,61,DSA,Placed,Wipro (Turbo),3
+78,M,64,Others,80,Others,MPC,CSE,Yes,69,DSA,Placed,Accenture (AASE),6
+79,M,84,Others,90.9,Others,MPC,CSE,No,86.04,DSA,Placed,CTS,4
+80,F,69,State,62,State,MPC,CSE,No,75,DS,Not Placed,CTS,0
+81,F,69,Others,62,Others,MPC,ECE,Yes,67,DS,Placed,IBM,3
+82,M,81.7,Others,63,Others,MPC,ECE,Yes,86,DSA,Placed,Wipro (Turbo),7
+83,M,63,State,67,State,MPC,ECE,No,82,DSA,Not Placed,HSBC,0
+84,M,84,Others,79,Others,MPC,CSE,Yes,84,DSA,Placed,Wipro (Turbo),7
+85,M,70,State,63,Others,MPC,CSE,Yes,55,DSA,Placed,Hexagon,7
+86,F,83.84,Others,89.83,Others,MPC,ECE,Yes,78.74,DSA,Placed,CTS,4
+87,M,62,Others,63,Others,MPC,ECE,No,67,DSA,Placed,Wipro (Turbo),3
+88,M,59.6,State,51,State,MPC,Others,No,75,DS,Not Placed,Wipro (Turbo),0
+89,F,66,State,62,State,MPC,ECE,No,58,DS,Placed,Tech Mahindra,3
+90,F,84,Others,75,Others,MPC,CSE,Yes,62,DS,Placed,Infosys,3
+91,F,85,Others,90,Others,MPC,ECE,No,92,DSA,Placed,CSG,7
+92,M,52,State,57,State,MPC,ECE,No,67,DS,Not Placed,Prodapt Solutions,0
+93,F,60.23,State,69,State,MPC,ECE,No,72,DSA,Placed,Wipro (Turbo),3
+94,M,52,State,62,State,MPC,ECE,No,72,DS,Not Placed,Wipro,0
+95,M,58,State,62,State,MPC,ECE,No,53.88,DSA,Placed,TCS (Digital),6
+96,M,73,State,78,Others,MPC,ECE,Yes,95.46,DSA,Placed,Ciena,4
+97,F,76,State,70,State,MPC,ECE,Yes,66,DSA,Placed,Accenture,7
+98,F,70.5,State,62.5,Others,MPC,ECE,No,93.91,DSA,Not Placed,Infosys,0
+99,F,69,State,73,State,MPC,ECE,No,70,DSA,Placed,Wipro (Turbo),3
+100,M,54,State,82,Others,MPC,CSE,No,50,DSA,Not Placed,Accenture,0
+101,F,45,Others,57,Others,MPC,ECE,Yes,56.39,DS,Not Placed,Ciena,0
+102,M,63,State,72,State,MPC,ECE,No,78,DS,Placed,Accenture,4
+103,F,77,Others,61,Others,MPC,ECE,Yes,57.5,DSA,Placed,Sasken Technologies,7
+104,M,73,State,78,State,MPC,CSE,Yes,85,DS,Placed,CTS,3
+105,M,69,State,63,Others,MPC,ECE,Yes,55,DS,Placed,Wipro (Turbo),8
+106,M,59,State,64,Others,MPC,CSE,No,85,DS,Not Placed,Infosys-DSE,0
+107,M,61.08,Others,50,Others,MPC,CSE,No,71,DSA,Not Placed,CSG,0
+108,M,82,Others,90,Others,MPC,ECE,No,80,DS,Placed,Mindtree,3
+109,M,61,State,82,State,MPC,ECE,No,84,DSA,Placed,Mindtree,7
+110,M,52,State,63,Others,MPC,CSE,Yes,86,DS,Not Placed,Wipro (Turbo),0
+111,F,69.5,State,70,State,MPC,CSE,No,57.2,DS,Placed,IBM,5
+112,M,51,Others,54,Others,MPC,CSE,No,60,DS,Not Placed,CTS,0
+113,M,58,Others,61,Others,MPC,ECE,No,58,DS,Placed,Ciena,5
+114,F,73.96,Others,79,Others,MPC,ECE,No,72.15,DSA,Placed,Wipro (Turbo),4
+115,M,65,State,68,Others,MPC,ECE,No,53.7,DS,Placed,TCS (Digital),5
+116,F,73,Others,63,Others,MPC,ECE,No,89,DSA,Placed,Infosys,3
+117,M,68.2,State,72.8,State,MPC,ECE,Yes,96,DSA,Placed,Wipro (Turbo),7
+118,M,77,Others,75,Others,MPC,CSE,No,80,DSA,Placed,EPAM,3
+119,M,76,State,80,State,MPC,CSE,Yes,97,DS,Placed,PwC,3
+120,M,60.8,State,68.4,State,MPC,ECE,Yes,82.66,DSA,Placed,Accenture (AASE),7
+121,M,58,Others,40,Others,MPC,ECE,No,73,DS,Not Placed,Wipro (Turbo),0
+122,F,64,State,67,Others,MPC,CSE,Yes,55.67,DS,Placed,Ciena,5
+123,F,66.5,State,66.8,State,Diploma,ECE,Yes,80.4,DSA,Placed,Accenture,3
+124,M,74,Others,59,Others,MPC,ECE,Yes,60,DS,Placed,HSBC,3
+125,M,67,State,71,State,MPC,ME,Yes,64,DS,Placed,Accenture,5
+126,F,84,State,73,State,MPC,ECE,No,75,DSA,Placed,Accenture,5
+127,F,79,Others,61,Others,MPC,CSE,Yes,70,DSA,Placed,TCS (Digital),3
+128,F,72,Others,60,Others,MPC,ECE,No,55.5,DS,Placed,Modak Analytics,5
+129,M,80.4,State,73.4,State,MPC,CSE,Yes,81.2,DS,Placed,Recruit CRM,4
+130,M,76.7,State,89.7,Others,MPC,ECE,Yes,90,DSA,Placed,Modak Analytics,5
+131,M,62,State,65,Others,MPC,ECE,No,84,DSA,Not Placed,Accenture,0
+132,F,74.9,Others,57,Others,MPC,ME,Yes,80,DSA,Placed,Techigai,8
+133,M,67,Others,68,Others,MPC,ECE,Yes,74.4,DS,Placed,Mindtree,7
+134,M,73,State,64,Others,MPC,ECE,Yes,65,DS,Placed,IHS Markit,5
+135,F,77.44,State,92,Others,MPC,ECE,Yes,94,DSA,Placed,Capgemini,5
+136,F,72,State,56,Others,MPC,ECE,No,55.6,DS,Placed,ValueLabs,3
+137,F,47,State,59,State,Diploma,ECE,No,78,DSA,Not Placed,Wipro,0
+138,M,67,Others,63,State,MPC,ECE,No,56,DS,Placed,CSG,3
+139,F,82,Others,64,Others,MPC,CSE,Yes,96,DSA,Placed,TCS (Digital),5
+140,M,77,State,70,State,MPC,ECE,Yes,58,DSA,Placed,Wipro (Turbo),3
+141,M,65,State,64.8,Others,MPC,ECE,Yes,56,DSA,Placed,ValueLabs,4
+142,M,66,State,64,State,MPC,ECE,No,60,DS,Not Placed,IBM,0
+143,M,85,State,60,Others,MPC,CSE,Yes,60,DSA,Placed,Wipro (Turbo),6
+144,M,77.67,Others,64.89,Others,MPC,ECE,No,89,DSA,Placed,Square Yards,7
+145,M,52,Others,50,Others,Diploma,ECE,No,60,DSA,Not Placed,Accenture,0
+146,M,89.4,Others,65.66,Others,MPC,CSE,No,72,DS,Placed,IBM,4
+147,M,62,State,63,Others,MPC,ECE,No,85,DS,Placed,CTS,3
+148,M,70,State,74,State,MPC,ECE,No,83,DSA,Placed,CTS,7
+149,F,77,State,86,State,Diploma,ME,No,57,DSA,Placed,CTS,3
+150,M,44,State,58,State,Diploma,ECE,Yes,64.25,DS,Not Placed,Broadcom,0
+151,M,71,State,58.66,State,MPC,CSE,Yes,56,DSA,Placed,Accenture,7
+152,M,65,State,65,State,MPC,ECE,No,83,DSA,Placed,Tech Mahindra,4
+153,F,75.4,Others,60.5,State,MPC,CSE,No,98,DSA,Placed,Capgemini,3
+154,M,49,Others,59,Others,MPC,CSE,Yes,86,DSA,Placed,Accenture,4
+155,M,53,State,63,Others,MPC,ECE,Yes,70,DSA,Placed,CTS,5
+156,M,51.57,Others,74.66,Others,MPC,ECE,Yes,56.15,DS,Not Placed,Accenture,0
+157,M,84.2,State,69.4,State,MPC,CSE,Yes,80,DS,Placed,PwC,3
+158,M,66.5,State,62.5,State,MPC,ECE,No,93.4,DSA,Placed,Accenture,7
+159,M,67,Others,63,Others,MPC,CSE,No,60,DSA,Not Placed,IBM,0
+160,M,52,State,49,Others,MPC,ECE,No,62,DS,Not Placed,Infor,0
+161,M,87,State,74,State,MPC,CSE,Yes,75,DS,Placed,Capgemini,7
+162,M,55.6,Others,51,Others,MPC,ECE,No,57.63,DS,Not Placed,Wipro,0
+163,M,74.2,State,87.6,Others,MPC,ECE,Yes,75.2,DSA,Placed,Accenture,3
+164,M,63,Others,67,Others,MPC,CSE,No,75,DSA,Placed,CTS,5
+165,F,67.16,State,72.5,State,MPC,ECE,No,53.04,DSA,Placed,CTS,5
+166,F,63.3,State,78.33,Others,MPC,ECE,No,80,DSA,Not Placed,Wipro (Turbo),0
+167,M,62,Others,62,Others,MPC,ECE,Yes,63,DS,Placed,Accenture,3
+168,M,67.9,Others,62,Others,MPC,CSE,Yes,58.1,DSA,Not Placed,Accenture (AASE),0
+169,F,48,State,51,State,MPC,ECE,Yes,60,DS,Not Placed,Wipro (Turbo),0
+170,M,59.96,Others,42.16,Others,MPC,CSE,No,54.48,DS,Not Placed,PwC,0
+171,F,63.4,Others,67.2,Others,MPC,ECE,No,58.06,DS,Not Placed,CTS,0
+172,M,80,Others,80,Others,MPC,ECE,Yes,63.79,DSA,Placed,IBM,3
+173,M,73,Others,58,Others,MPC,ECE,No,84,DS,Placed,CTS,7
+174,F,52,Others,52,Others,MPC,CSE,No,67,DS,Not Placed,Wipro,0
+175,M,73.24,Others,50.83,Others,MPC,CSE,Yes,64,DSA,Placed,Accenture (AASE),5
+176,M,63,Others,62,Others,MPC,CSE,No,87.5,DS,Not Placed,CTS,0
+177,F,59,State,60,Others,MPC,ECE,No,55,DS,Placed,CGI,3
+178,F,73,State,97,Others,MPC,ECE,Yes,89,DSA,Placed,Techigai,7
+179,M,68,Others,56,Others,MPC,CSE,No,73,DS,Placed,CTS,5
+180,F,77.8,State,64,State,MPC,CSE,No,75.5,DS,Not Placed,ValueLabs(SDET),0
+181,M,65,State,71.5,Others,MPC,ECE,Yes,57,DSA,Placed,CTS,4
+182,M,62,State,60.33,Others,MPC,CSE,No,63,DS,Not Placed,CTS,0
+183,M,52,Others,65,Others,Diploma,ME,Yes,75,DSA,Not Placed,Mindtree,0
+184,M,65,State,77,State,MPC,ECE,No,60,DS,Placed,CTS (GenC Elevate),3
+185,F,56.28,Others,62.83,Others,MPC,ECE,No,60,DS,Not Placed,CTS,0
+186,F,88,State,72,State,MPC,ME,No,82,DS,Placed,Robert Bosch,6
+187,F,52,State,64,State,MPC,ECE,No,55,DSA,Not Placed,Wipro (Turbo),0
+188,M,78.5,State,65.5,State,MPC,CSE,Yes,95,DSA,Placed,TCS,3
+189,M,61.8,Others,47,Others,MPC,ECE,No,57,DSA,Not Placed,Techigai,0
+190,F,54,State,77.6,Others,MPC,ECE,No,95.65,DSA,Not Placed,CTS,0
+191,F,64,Others,70.2,State,MPC,ECE,No,50,DSA,Not Placed,Wiley-mthree,0
+192,M,67,Others,61,State,MPC,ECE,No,72,DSA,Placed,TCS (Digital),3
+193,M,65.2,State,61.4,State,MPC,ECE,Yes,93.4,DSA,Placed,Wipro,4
+194,F,60,State,63,State,Diploma,ME,Yes,80,DS,Placed,Infosys,7
+195,M,52,Others,55,Others,MPC,ECE,No,59,DSA,Not Placed,Accenture (AASE),0
+196,M,66,State,76,State,MPC,ECE,Yes,84,DS,Placed,Wipro (Turbo),4
+197,M,72,Others,63,Others,MPC,CSE,Yes,78,DSA,Placed,Square Yards,5
+198,F,83.96,Others,53,Others,MPC,CSE,No,59.32,DS,Placed,Infosys,6
+199,F,67,State,70,State,MPC,ME,No,88,DS,Not Placed,Robert Bosch,0
+200,M,69,Others,65,Others,MPC,ECE,No,73,DS,Placed,CTS,4
+201,M,69,Others,60,Others,MPC,ECE,No,87.55,DSA,Placed,CTS,7
+202,M,54.2,State,63,Others,MPC,ECE,No,79,DS,Not Placed,Accenture,0
+203,M,70,State,63,State,MPC,CSE,No,61.28,DS,Placed,Accenture,3
+204,M,55.68,Others,61.33,Others,MPC,ECE,No,66,DS,Placed,CTS,6
+205,F,74,Others,73,Others,MPC,ECE,Yes,80,DSA,Placed,CTS,3
+206,M,61,Others,62,Others,MPC,ECE,No,62,DSA,Placed,Wipro (Turbo),5
+207,M,41,State,42,State,MPC,ECE,No,97,DSA,Not Placed,Infor,0
+208,M,83.33,State,78,Others,MPC,ECE,Yes,88.56,DSA,Placed,Infor,7
+209,F,43,State,60,Others,MPC,ECE,No,92.66,DS,Not Placed,0,0
+210,M,62,State,72,State,MPC,ECE,No,67,DSA,Placed,Accenture,3
+211,M,80.6,Others,82,Others,MPC,ECE,No,91,DSA,Placed,Accenture,4
+212,M,58,Others,60,Others,MPC,CSE,No,74,DSA,Placed,Wipro (Turbo),4
+213,M,67,Others,67,Others,MPC,ECE,Yes,59,DSA,Placed,Accenture,3
+214,F,74,Others,66,Others,MPC,ECE,No,70,DS,Placed,Accenture,3
+215,M,62,State,58,Others,MPC,ECE,No,89,DS,Not Placed,0,0

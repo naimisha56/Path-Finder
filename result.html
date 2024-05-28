@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/418aae1497.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{url_for('static',filename='CSS/no.css')}}">
+    <link rel="icon" href="{{ url_for('static', filename='Images/logo.jpg') }}" type="image/x-icon">
+    <title>Pathfinder</title>
+</head>
+<body>
+    <div id="home">
+        <div class="container">
+          <nav>
+    
+            <a class="name" href="">Pathfinder</a>
+            <ul id="sidemenu">
+              <li><a href="{{url_for('welcome')}}">Home</a></li>
+            <li><a href="{{url_for('welcome')}}">Contact</a></li>
+             
+            </ul>
+          </nav>
+          
+          <div class="text">
+            <div>
+              <h3>Upskill yourself with below Resources<span class="auto-type"></span></h3>
+            </div>
+            <p class="brief" align="justify">
+                You just need some potential to be get placed.
+            </p>
+          </div>
+        </div>
+
+          <div id=services>
+            <div class="container">
+              <h1 class="subtit">Resources to make you better</h1>
+              <div class="services-list">
+                <div>
+                  <a href="https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/">
+
+                  <i class="fa-solid fa-code"><span> Programming</span></i>
+                  <h2>Striver SDE Sheet</h2>
+                  <p align="justify">The Striver SDE Sheet typically covers a wide range of data structures, algorithms, and problem-solving techniques that are commonly encountered in coding interviews conducted by many companies. It is organized in a systematic manner, making it easier for individuals to go through various topics and practice questions efficiently.</p>
+                </a>
+                </div>
+                <div>
+                  <a href="">
+                  <i class="fa-sharp fa-solid fa-file-code"> <span>Web Development</span> </i>
+                  <h2>Angela Yu</h2>
+                  <p align="justify">Angela Yu is a popular instructor on the online learning platform Udemy. Angela Yu primarily focuses on web development courses, including front-end and back-end technologies. Her most famous course is "The Complete Web Development Bootcamp," which covers HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, and more.</p>
+                </a>
+                </div>
+              <div>
+                <a href="">
+                <i class="fa-sharp fa-solid fa-brain"> <span>Artificial Intelligence</span> </i>
+                <h2>Krish Naik</h2>
+                <p align="justify">Krish Naik is a popular YouTuber and educator known for his content related to machine learning (ML), data science, artificial intelligence (AI), and programming. He runs a YouTube channel where he shares tutorials, explanations, and practical demonstrations of various concepts in these fields. </p>
+              </a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+          
+</body>
+</html>

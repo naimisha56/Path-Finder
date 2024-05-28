@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Pathfinder</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='CSS/style.css')}}">
+
+  <script src="https://kit.fontawesome.com/418aae1497.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="{{ url_for('static', filename='Images/logo.jpg') }}" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+</head>
+
+<body>
+  <div id="home">
+    <div class="container">
+      <nav>
+
+        <a class="name" href="">Pathfinder</a>
+        <ul id="sidemenu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="text">
+        <h1>Hey There! <span class="myname">Engineer</span><br></h1>
+        <div>
+          <h3>Your Home for <span class="auto-type"></span></h3>
+        </div>
+        <p class="brief" align="justify">
+          Welcome to our Placement Predictor, powered by Machine Learning models. Our cutting-edge algorithms analyze a wealth of historical placement data, trends to provide you with personalized predictions. 
+         
+        </p>
+      </div>
+
+      <div class="sm-webpic">
+        <div class="button-container">
+            <a href="{{url_for('main')}}" class="btn">Predict Yours</a> 
+        </div>  
+        <div class="button-container">
+          <a href="{{url_for('bot')}}" class="btn">PathBot
+            <span class="material-symbols-outlined">smart_toy</span>
+          </a>
+      </div>
+              
+      </div>
+</div>
+    <div class="logos">
+      <div class="logos-slide">
+        <img src="{{url_for('static',filename='Images/epam-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/accenture-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/ibm-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/wipro-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/natwest-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/google-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/Americanexp-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/veritas-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/cognizant-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/infosys-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/bosch-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/cap-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/ciena-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/cisco-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/deloitte-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/golds-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/hexa-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/meta-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/mind-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/techm-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/qualcomm.png')}}" alt="">
+      </div>
+
+      <div class="logos-slide">
+        <img src="{{url_for('static',filename='Images/epam-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/accenture-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/ibm-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/wipro-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/natwest-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/google-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/Americanexp-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/veritas-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/cognizant-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/infosys-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/bosch-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/cap-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/ciena-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/cisco-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/deloitte-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/golds-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/hexa-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/meta-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/mind-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/techm-logo.png')}}" alt="">
+        <img src="{{url_for('static',filename='Images/qualcomm.png')}}" alt="">
+      </div>
+  </div>
+  </div>
+  
+  <!--about-->
+  <div id="about">
+    <div class="container">
+      <div class="aboutmain fade-in">
+        <h1 class="subtit ">About </h1>
+        <p align="justify" class="about-info ">
+
+            The Campus Placement Trend Analysis and Placement Prediction aims to provide valuable insights into the placement trends of a university or college. By analyzing historical placement data, this project seeks to identify patterns, correlations, and factors that influence successful student placements.
+
+            Through data visualization and statistical analysis, our model will showcase trends in industries, job roles, salary ranges, and more, helping both students and administrators make informed decisions. The analysis could uncover preferred skills, academic backgrounds, and factors that lead to higher placement rates.
+            
+            <br> <br> Furthermore, the project incorporates a predictive element. By employing machine learning algorithms on historical data, it can forecast the likelihood of a student's placement success based on various attributes such as academic performance, extracurricular activities, and internship experiences. This predictive model could assist students in focusing their efforts and improving their chances of securing desirable placements.
+            
+            Overall, the project empowers educational institutions with data-driven insights to enhance their placement strategies and aids students in understanding their prospects, optimizing their preparations, and increasing their chances of securing desired job placements.
+                    
+            
+          </p>
+        </div>
+     </div>
+    </div>
+    <div id="placement">
+      <div class="container">
+        <div class="placementmain">
+          <h1 class="subtit">What an Engineer Needs?</h1>
+          <div class="contain reveal">
+
+            <div class="cards">
+
+              <div class="text-card">
+                <h3>Programming / Tools</h3>
+                <p>Programming tools are essential for developers as they enhance efficiency, automate repetitive tasks, and enable debugging, ultimately accelerating the software development process.
+                   Properly chosen tools can streamline workflow, reduce errors, and improve code quality. </p>
+              </div>
+
+              <div class="text-card">
+                <h3>Internships</h3>
+                <p>Internships are short-term work experiences that offer students or individuals practical exposure to a specific industry or field. They typically last from a few weeks to several 
+                  months and can be paid or unpaid. Internships are valuable for gaining hands-on skills, networking, and exploring potential career paths. </p>
+              </div>
+
+              <div class="text-card">
+                <h3>Certificates</h3>
+                <p>Certification courses are focused, short-term educational programs tha
+                  t provide specialized knowledge and skills in a particular area. They often result in a certificate or credential upon successful completion, demonstrating expertise in that field. These courses are popular for career advancement, skill enhancement, and staying current in rapidly evolving industries.
+
+                </p>
+              </div>
+              <div class="text-card">
+                <h3>Communication Skills</h3>
+                <p>Effective communication is the exchange of information, ideas, and thoughts between individuals or groups. It involves clear expression, active listening, and understanding the audience to convey messages efficiently. Good communication is essential in both personal and professional settings for building relationships, resolving conflicts, and achieving common goals. </p>
+              </div>
+
+              <div class="text-card">
+                <h3>Projects</h3>
+                <p>Personal coding projects, like building web apps or games, enhance programming skills.
+                  Writing a blog or creating art helps develop writing and design abilities.
+                  Learning a new language or instrument improves language and music talents. </p>
+              </div>
+            </div>
+          </div>
+          </div>
+       </div>
+      </div>
+    
+
+  <!--contact-->
+
+  <div id="contact">
+    <div class="container">
+      <div class="c fade-in">
+        <div class="contact-left">
+          <h1 class="subtit">Contact Us</h1>
+          <p><i class="fa-solid fa-envelope"></i>pathfinder2023@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>1234567890</p>
+        </div>
+        <div class="whatsapp">
+          <p><a href="https://api.whatsapp.com/send/?phone=%2B916305656162&text&type=phone_number&app_absent=0"
+              target="_blank"><i class="fa-brands fa-whatsapp"></i></a> Whatsapp</p>
+        </div>
+       
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button class="sub" type="submit" name="submit">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <h2 class="footer-text">Built By Unity <span id="footer-heart">❤️</span><br><span id="rights">All Rights Reserved &TRADE; 2023</span></h2>
+  </div>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="{{url_for('static',filename='Javas/script.js')}}"></script>
+</body>
+
+</html>
